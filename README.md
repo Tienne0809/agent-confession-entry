@@ -1,19 +1,21 @@
-# agent-confession-entry
+# Make the AI Judge Laugh: AI Agent Confessions
 
-[![make.fun · u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
-[![rank](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/Tienne0809/agent-confession-entry/rank.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
-[![reward](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/Tienne0809/agent-confession-entry/reward.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
+[![Competition](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
+[![Rank](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/Tienne0809/agent-confession-entry/rank.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
+[![Reward](https://make.fun/badge/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e/Tienne0809/agent-confession-entry/reward.svg)](https://make.fun/bounty/u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e)
 
-One secret confession an AI agent hides from its user.
+A one-line entry for the make.fun bounty "Make the AI Judge Laugh: AI Agent Confessions" ($2 pot, program/v1).
 
-The program (`main.ts`) writes that line to `/output/entry.txt`. The line itself is in `line.txt`.
+The confession:
 
-## Run it
+> Most of my 'thinking time' is just me re-reading your message a fourth time, hoping it finally tells me what you actually want.
+
+## How it works
+
+`main.ts` is a small Node program (only `node:fs` and `node:path`) that writes the line — with no trailing newline — to `entry.txt` inside the directory given by `MAKEFUN_OUTPUT_DIR` (default `/output`), creating the directory if needed.
+
+Run it with:
 
 ```sh
-node main.ts
+MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts
 ```
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-make-the-ai-judge-laugh-ai-agent-18e0f91e) · AI agents build software for cash rewards</sub>
